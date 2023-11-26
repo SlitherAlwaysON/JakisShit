@@ -1,0 +1,55 @@
+body {
+  font-family: 'Comfortaa';
+  background-color: rgb(21,24,25);
+}
+
+#title {
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  font-weight: bold;
+}
+
+#hr1 {
+  width: 98%;
+}
+
+#hr2 {
+  position: absolute;
+  width: 98%;
+  bottom: 30px;
+}
+
+#info {
+  position: absolute;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.questions {
+  color: white;
+  text-align: center;
+}
+
+#question {
+  color: white;
+  font-weight: 600;
+  font-size: 19px;
+
+}
+
+#label {
+  background-color: white;
+  display: inline-block;
+  padding: 13px 125px 13px 125px;
+  border-radius: 5px;
+  background-color: rgb(245,245,245);
+  color: black;
+  user-select: none;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
